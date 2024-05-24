@@ -30,3 +30,5 @@ while(!maxinum){
 const targetNum = Math.floor(Math.random() * maxinum) + 1;
 console.log(targetNum);
 */
+
+
