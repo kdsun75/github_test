@@ -1,0 +1,7 @@
+diff a/jsTest/test.js b/jsTest/test.js	(rejected hunks)
+@@ -30,3 +30,5 @@
+ const targetNum = Math.floor(Math.random() * maxinum) + 1;
+ console.log(targetNum);
+ */
++
++
