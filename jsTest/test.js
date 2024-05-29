@@ -31,7 +31,6 @@ const targetNum = Math.floor(Math.random() * maxinum) + 1;
 console.log(targetNum);
 */
 
-<<<<<<< HEAD
 /*
 const seatingChart = [
     ['Kristen', 'Erik', 'Namita'],
@@ -80,6 +79,4 @@ const message = prompt('The page says');
 while(message !== 'quit'){
     message = prompt('The page says');
 }
-=======
->>>>>>> 97ac260c361af757488e13b150ffb57270d624a1
 
