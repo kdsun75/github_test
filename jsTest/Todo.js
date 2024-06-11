@@ -105,20 +105,52 @@ const feline = { legs: 4, family: 'Felidae' };
 const canine = { isFurry: true, family: 'Caninae'};
 */
 
+function sum(...nums){
+    return nums.reduce((total, el) => total + el)
+}
+
+function raceResults(gold, silver, ...everyoneElse){
+    console.log(`GOLD MEDAL GOES TO: ${gold}`)
+    console.log(`SILVER MEDAL GOES TO: ${silver}`);
+    console.log(`AND THANKS TO EVERYONE ELSE: ${everyoneElse}`)
+}
+
+const numarr = [1999,1850, 1765,1321,2004,2016,2024];
+
+const [a1, a2, ...nod] = numarr;
+
+const user = {
+    email: 'kdsun@gmail.com',
+    firstName : 'PARK',
+    lastName: 'KILDONG',
+    born: 1975,
+    city: 'Seoul'
+}
+
+const user2 = {
+    email: 'min@gmail.com',
+    born: 1991,
+    city: 'seoul'
+}
 
 
+//const {email, born, dead: deadYear = 'N/A'} = user;
+/*
+function fullName({firstName, lastName}){
+    return `${firstName} ${lastName}`;
+}
 
+movies.filter(movie => movie.score > 70);
 
+movies.map(movie => {
+    return `${movie.title} (${movie.year}) is rated ${movie.score}`
+})
 
+*/
 
-
-
-
-
-
-
-
-
+movies.map(({title,year,score}) => {
+    return `${title} (${year}) is rated ${score}`; 
+})
 
 
 
