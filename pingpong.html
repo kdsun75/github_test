@@ -25,27 +25,24 @@
                       <p class="card-header-title">
                             Ping Pong Score Keeper
                     </p>
-                    
+
                     </header>
                     <div class="card-content">
                       <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-                        iaculis mauris.
-                        <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-                        <br />
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                            <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                            <p class="subtitle">Use the buttons below to keep score</p>
                       </div>
                     </div>
                     <footer class="card-footer">
-                      <a href="#" class="card-footer-item">Save</a>
-                      <a href="#" class="card-footer-item">Edit</a>
-                      <a href="#" class="card-footer-item">Delete</a>
+                      <button id="p1Button" class="button is-primary card-footer-item">+1 player one</button>
+                      <button id="p2Button" class="button is-warning card-footer-item">+2 player one</button>
+                      <button id="reset" class="button is-danger card-footer-item">reset</button>
                     </footer>
                 </div>
             </div>
         </div>
     </div>
-    <h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+    
     <select name="" id="playto">
         <option value="3">3</option>
         <option value="4">4</option>
@@ -57,9 +54,9 @@
         <option value="10">10</option>
         <option value="11">11</option>
     </select>
-    <button id="p1Button">+1 player one</button>
+    <!-- <button id="p1Button">+1 player one</button>
     <button id="p2Button">+2 player one</button>
-    <button id="reset">reset</button>
+    <button id="reset">reset</button> -->
     
     <script src="pingpong.js"></script>
 </body>
